@@ -119,10 +119,6 @@ const I18N = {
         en: "© 2026 Vo Dang Vinh · Always building and learning."
     },
 
-    bot_hint: {
-        vi: "Animator State Machine mô phỏng — mỗi section = 1 state",
-        en: "A simulated Animator State Machine — each section is a state"
-    }
 };
 
 let currentLang = "vi";
@@ -299,7 +295,8 @@ const PROJECTS = [
         ],
         links: {
             website: "https://www.forgottenbastions.com/",
-            steam: "https://store.steampowered.com/app/4418130/Fear_Tall_Grass/"
+            steam: "https://store.steampowered.com/app/4418130/Fear_Tall_Grass/",
+            trailer: "https://www.youtube.com/watch?v=2x5EiQXHDKc"
         }
     }
 
@@ -325,6 +322,7 @@ const STORE_LABELS = {
     appStore: "App Store",
     steam: "Steam",
     website: "Website",
+    trailer: "Trailer",
     devlog1: "Devlog 1",
     devlog2: "Devlog 2",
     devlog3: "Devlog 3"
@@ -333,6 +331,7 @@ const STORE_LABELS = {
 // Sinh danh sách "chip" nền tảng hiển thị trên card (chỉ hiện platform có link thật)
 function platformChipsHtml(p) {
     return Object.keys(p.links)
+        .filter((key) => key !== "trailer")
         .map((key) => `<span class="plat">${STORE_LABELS[key] || key}</span>`)
         .join("");
 }
