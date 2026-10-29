@@ -17,8 +17,8 @@ const I18N = {
         vi: "Game Developer, trên hành trình trở thành <b>AI Engineer</b>"
     },
     hero_intro: {
-        en: "A software developer with about two years of professional experience building games in Unity and C#, now moving into Artificial Intelligence. I've applied to the Master's program in AI at Inha University for Spring 2027.",
-        vi: "Software developer với khoảng hai năm kinh nghiệm làm game chuyên nghiệp bằng Unity và C#, đang chuyển hướng sang Trí tuệ Nhân tạo. Mình đã nộp hồ sơ vào chương trình Thạc sĩ AI tại Inha University, kỳ Spring 2027."
+        en: "I'm a curious young developer who loves exploring technology, understanding how things work, and turning ideas into real products. With about two years of experience in game development using Unity and C#, I'm now beginning a new chapter in Artificial Intelligence, driven by my curiosity about how intelligent systems learn and make decisions.",
+        vi: "Mình là một developer trẻ đầy tò mò, thích khám phá công nghệ, tìm hiểu cách mọi thứ vận hành và biến ý tưởng thành sản phẩm thực tế. Với khoảng hai năm kinh nghiệm làm game bằng Unity và C#, mình đang bắt đầu một chương mới với Trí tuệ Nhân tạo, xuất phát từ sự tò mò về cách các hệ thống thông minh học hỏi và ra quyết định."
     },
     hero_cta_work: { en: "See my work", vi: "Xem dự án" },
     hero_cta_mail: { en: "Email me", vi: "Gửi email" },
